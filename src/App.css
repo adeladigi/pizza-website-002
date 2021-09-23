@@ -1,5 +1,74 @@
-.App {
-  text-align: center;
+/* body {
+    height: 100vh;
+    overflow-y: hidden;
+    padding-right: 15px; 
+  } */
+
+  body {
+    background-color: #fff;
+    margin: 0px;
 }
+
+  .frozen {
+    height: 100vh;
+    overflow-y: hidden; 
+  }
+
+
+  .body-blank {
+    background-color: #fff;
+    min-height: 500px;
+  }
+
+.stn {
+  width: 100%;
+  background-color:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.etj {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.etj img {
+  max-width: 400px;
+  margin: auto;
+}
+
+img {
+  max-width: 600px;
+}
+
+.total-div {
+  background-color: #fff;
+  min-width: 300px;
+  font-family: 'Anton', sans-serif;
+  border: 1px solid  #EFEFEF;
+  padding: 20px;
+}
+
+.fa-shopping-cart {
+  background-color: #fff;
+}
+
+@media (min-width: 768px){
+  .stn {
+    flex-direction: row;
+
+  }
+
+  .etj img {
+    max-width: 600px;
+    min-width: 600px;
+    margin: auto;
+  }
+}
+
 
 

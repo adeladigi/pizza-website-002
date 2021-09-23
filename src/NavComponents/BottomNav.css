@@ -1,0 +1,23 @@
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #8D2828;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.bottom-nav h3 {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px; 
+    cursor: pointer;
+}
+
+.bottom-nav h3:hover {
+    color: #57CC99;
+}
+
+.current-page {
+    text-decoration: underline 5px solid #fff; 
+}

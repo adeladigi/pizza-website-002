@@ -1,0 +1,11 @@
+.menu-title {
+    background-color: #fff;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.menu-title h1{
+    margin: 0;
+}

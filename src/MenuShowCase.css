@@ -1,0 +1,46 @@
+.showcase-div {
+    background-color: #fff;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y:hidden;
+}
+
+
+.card-menu {
+   background-color: #fff;
+   border: 1px solid #AFB9C8;
+   height: 300px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-radius: 7px;
+   margin: 20px;
+}
+
+img {
+   min-height: 220px;
+   min-width: 300px;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+}
+
+.info-div {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 85.44px;
+    max-width: 300px;
+    min-height: 85.44px;
+}
+
+.info-div h3{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,37 @@
+.list-container {
+    font-family: 'Anton', sans-serif;
+    padding: 10px;
+    border: 1px solid  #EFEFEF;
+    display: flex;
+    justify-content: row;
+
+}
+
+.list-container img {
+    max-height: 25px;
+    max-width: 25px;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.list-info-div {
+    margin-left: 30px;
+}
+
+.list-delet-btn h4{
+    background-color: #EFEFEF;
+    display: inline-flex;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 7px;
+    font-family: 'Anton', sans-serif;
+    cursor: pointer;
+}
+
+.list-delet-btn h4:hover {
+    color: #57CC99;
+}
+

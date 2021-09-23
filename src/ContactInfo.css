@@ -1,0 +1,52 @@
+.contact-div {
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    min-height: 400px;
+    margin: 30px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-div {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-div h3 {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: #8D2828;
+}
+
+.location-div {
+    
+}
+
+.location-div h3 {
+    font-family: 'Anton', sans-serif;
+    color: #8D2828;
+}
+
+@media (min-width: 768px) {
+    .contact-div {
+        margin-top: 200px;
+        align-items: unset;
+    }
+
+
+    .contact-box {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .banner-div {
+        display: flex;
+        justify-content: unset;
+    }
+}

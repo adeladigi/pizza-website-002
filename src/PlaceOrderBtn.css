@@ -1,0 +1,21 @@
+.place-order-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #EFEFEF;
+}
+
+.place-order-btn {
+    font-family: 'Anton', sans-serif;
+    color:#000;
+    background-color: #57CC99;
+    padding: 5px;
+    border-radius: 12px;
+    max-width: 160px;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

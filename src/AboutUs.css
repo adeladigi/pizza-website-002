@@ -1,0 +1,36 @@
+.about-container {
+    background-color: #fff;
+}
+
+.about-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.about-banner h1 {
+    font-family: 'Anton', sans-serif;
+    color: #8D2828;
+    padding: 10px;
+}
+
+.about-container p {
+    font-family: 'Anton', sans-serif;
+    color: #8D2828;
+    padding: 25px;
+    font-size: 20px;
+}
+
+@media (min-width: 756px) {
+
+    .about-container p {
+     margin: auto;   
+     max-width: 600px;
+    }
+
+    .about-banner h1 {
+        padding: 20px;
+    }
+
+}

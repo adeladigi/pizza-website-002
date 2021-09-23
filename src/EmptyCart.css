@@ -1,0 +1,23 @@
+.empty-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .empty-container h2 {
+      font-family: 'Anton', sans-serif;
+      padding: 20px;
+  }
+  
+  .empty-container img {
+      max-width: 50px;
+      min-width: 100px;
+      min-height: 100px;
+  }
+  
+  #cart-icon {
+      font-size: 70px;
+      color: #8D2828;
+  }

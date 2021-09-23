@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    margin: 0px;
+    padding-top:45px;
+}
+
+nav {
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #ffff;
+    z-index: 2;
+
+}
+
+.nav-item {
+    margin: 10px;
+    font-size: 25px;
+    color: #8D2828;
+}
+
+.fas {
+    margin-right: 15px;
+}
+
+#nav-logo {
+    font-family: 'Anton', sans-serif;
+}
+
+.menu-selection-div {
+    display: none;
+}
+
+
+
+@media (min-width: 768px){
+    .nav-item {
+        font-size: 30px;
+    }
+
+    .menu-selection-div{
+        display: unset;
+        display: flex;
+        flex-direction: row;
+        padding-right: 20px;
+    }
+
+    .menu-selection-div h3{
+        font-family: 'Anton', sans-serif;
+        color: #8D2828;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .fas {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+    .menu-selection-div {
+        padding-right: 40px;
+    }
+
+    .menu-selection-div h3{
+        font-size: 25px;
+    }
+
+}
