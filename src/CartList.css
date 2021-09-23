@@ -19,10 +19,11 @@
 
 .list-info-div {
     margin-left: 30px;
+    display: inline-block;
 }
 
 .list-info-div h3 {
-    margin-left: 20px;
+    display: inline-block;
 }
 
 .list-delet-btn h4{
