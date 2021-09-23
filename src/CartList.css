@@ -20,6 +20,11 @@
     margin-left: 30px;
 }
 
+.list-info-div h3 {
+    background-color: #57CC99;
+    margin-left: 20px;
+}
+
 .list-delet-btn h4{
     background-color: #EFEFEF;
     display: inline-flex;
