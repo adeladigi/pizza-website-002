@@ -28,9 +28,9 @@
   .left-arrow {
     font-size: 40px;
     z-index: 1;
-    position: absolute;
-    top: 95%;
-    left: 32px;
+    position: relative;
+    top: 180px;
+    left: 10px;
     color: #fff;
     cursor: pointer;
   }
@@ -38,9 +38,9 @@
   .right-arrow {
     font-size: 40px;
     z-index: 1;
-    position: absolute;
-    top: 95%;
-    right: 32px;
+    position: relative;
+    top: 180px;
+    left: 290px;
     color: #fff;
     cursor: pointer;
   }
@@ -100,12 +100,15 @@
   @media (min-width: 768px){
     .left-arrow {
         font-size: 40px;
-        color: #000;
+        color: #fff;
+        top: 190px;
       }
       
       .right-arrow {
         font-size: 40px;
-        color: #000;
+        color: #fff;
+        left: 410px;
+        top: 190px;
       }
 
       .img {
@@ -186,6 +189,19 @@
     .deal-log h3 {
        font-size: 35px;
        margin: 7px;
+    }
+
+    .left-arrow {
+      font-size: 40px;
+      color: #fff;
+      top: 190px;
+    }
+    
+    .right-arrow {
+      font-size: 40px;
+      color: #fff;
+      left: 340px;
+      top: 190px;
     }
 
   }
