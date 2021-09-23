@@ -101,14 +101,14 @@
     .left-arrow {
         font-size: 40px;
         color: #fff;
-        top: 190px;
+        top: 195px;
       }
       
       .right-arrow {
         font-size: 40px;
         color: #fff;
         left: 410px;
-        top: 190px;
+        top: 195px;
       }
 
       .img {
@@ -193,15 +193,19 @@
 
     .left-arrow {
       font-size: 40px;
-      color: #fff;
-      top: 190px;
+      color: #000;
+      left: 10px;
+      top: 200px;
+      /* color: red; */
+      z-index: 1;
     }
     
     .right-arrow {
       font-size: 40px;
-      color: #fff;
-      left: 340px;
-      top: 190px;
+      color: #000;
+      left: 780px;
+      top: 200px;
+      /* color: green; */
     }
 
   }
