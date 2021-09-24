@@ -1,0 +1,24 @@
+
+.popup-inner {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    padding: 20px;
+    
+    position: relative;
+    max-width: 360px;
+    min-width: 360px;
+    top: -100px;
+    right: 20px;
+    
+}
+
+.popup-inner h3 {
+    letter-spacing: 2px;
+}
+
+.popup-inner h4 {
+  color:#8D2828;
+  cursor: pointer;
+}
