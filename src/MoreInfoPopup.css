@@ -28,6 +28,11 @@
     font-family: 'Anton', sans-serif;
 }
 
+.error-empty h3 {
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+}
+
 .error-empty h4 {
     color:#8D2828;
     cursor: pointer;
