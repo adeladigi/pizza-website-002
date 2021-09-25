@@ -41,7 +41,7 @@ const [chosenproduct, setChosenProduct] = useState({img: "", title: "", price: 0
 const [cartList, setCartList] = useState([])
 const [popUp, setPopUp] = useState(false)
 const [orderResponce, setOrderResponce] = useState("Item has be added to cart !")
-const [backGround, setBackGround] = useState("#EEEEEE")
+
 
 
 if(showMenu === true){
@@ -135,7 +135,6 @@ function emptyList(obj){
   setCartList(obj.list);
   setPopUp(true)
   setOrderResponce(obj.res)
-  
 }
 
 function closePopUp(){
@@ -201,7 +200,7 @@ if(currentPage === "menu"){
           </div>
           <PlaceOrderBtn emptyFunc={emptyList}/>
 
-          <MoreInfoPopup  trigger={popUp} closeFunc={closePopUp} >
+          <MoreInfoPopup  trigger={popUp} closeFunc={closePopUp} errorLight={true}>
              <h3>{orderResponce}</h3>
            </MoreInfoPopup>
           <div className="body-blank">
@@ -235,7 +234,7 @@ if(currentPage === "menu"){
            </div>
            <PlaceOrderBtn itemList={cartList} emptyFunc={emptyList}/>
 
-           <MoreInfoPopup trigger={popUp} closeFunc={closePopUp}>
+           <MoreInfoPopup trigger={popUp} closeFunc={closePopUp} errorLight={true}>
              <h3>{orderResponce}</h3>
            </MoreInfoPopup>
            <div className="body-blank">

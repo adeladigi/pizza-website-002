@@ -13,6 +13,26 @@
     right: 25px;
 }
 
+.error-empty {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    padding: 20px;
+    
+    position: relative;
+    max-width: 360px;
+    min-width: 360px;
+    top: -100px;
+    right: -10px;
+    font-family: 'Anton', sans-serif;
+}
+
+.error-empty h4 {
+    color:#8D2828;
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
+}
 
 
 .popup-inner h3 {
@@ -24,4 +44,61 @@
   color:#8D2828;
   cursor: pointer;
   font-family: 'Anton', sans-serif;
+}
+
+@media (min-width: 768px){
+    .error-empty {
+        background-color: #EEEEEE;
+        padding: 20px;
+        
+        position: relative;
+        max-width: 360px;
+        min-width: 360px;
+        top: -100px;
+        right: -200px;
+        font-family: 'Anton', sans-serif;
+    }
+}
+
+@media (min-width: 1024px){
+    .error-empty {
+        background-color: #EEEEEE;
+        padding: 20px;
+        
+        position: relative;
+        max-width: 360px;
+        min-width: 360px;
+        top: -100px;
+        right: -300px;
+        font-family: 'Anton', sans-serif;
+    }
+}
+
+@media (min-width: 1400px){
+    .error-empty {
+        background-color: #EEEEEE;
+        padding: 20px;
+        
+        position: relative;
+        max-width: 360px;
+        min-width: 360px;
+        top: -100px;
+        right: -500px;
+        font-family: 'Anton', sans-serif;
+    }
+}
+
+
+@media (min-width: 1900px){
+    .error-empty {
+        background-color: #EEEEEE;
+        padding: 20px;
+        
+        position: relative;
+        max-width: 360px;
+        min-width: 360px;
+        top: -100px;
+        right: -700px;
+        font-family: 'Anton', sans-serif;
+    }
 }

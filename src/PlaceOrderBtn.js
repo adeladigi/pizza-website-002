@@ -6,14 +6,12 @@ function PlaceOrderBtn(props){
    
 
    function handleOrder(){
-
-    console.log(props.itemList)
    
        if(props.itemList === undefined){
            // do nothing
            const resObj = {
                list: [],
-               res: "You have no items in your Cart!",
+               res: "You have no items in your Cart."
            }
            
            props.emptyFunc(resObj)
@@ -22,7 +20,7 @@ function PlaceOrderBtn(props){
 
         const resObj = {
             list: [],
-            res: "your purchase was successful",
+            res: "your purchase was successful!"
         }
        
         props.emptyFunc(resObj)
