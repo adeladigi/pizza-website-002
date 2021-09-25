@@ -23,6 +23,8 @@ import EmptyCart from "./EmptyCart";
 import PlaceOrderBtn from "./PlaceOrderBtn";
 import CartBanner from "./CartBanner";
 
+import MoreInfoPopup from "./MoreInfoPopup";
+
 
 //import drinksMenu from "./drinksMenu";
 
@@ -37,6 +39,10 @@ const [currentMenu, setCurrentMenu] = useState(pizzaMenu)
 const [currentPage, setCurrentPage] = useState("menu")
 const [chosenproduct, setChosenProduct] = useState({img: "", title: "", price: 0})
 const [cartList, setCartList] = useState([])
+const [popUp, setPopUp] = useState(false)
+const [orderResponce, setOrderResponce] = useState("Item has be added to cart !")
+const [backGround, setBackGround] = useState("#EEEEEE")
+
 
 if(showMenu === true){
   const body = document.body.style="overflow-y: hidden";
@@ -125,6 +131,17 @@ function deleteCartItem(num){
    setCartList(newList);
 }
 
+function emptyList(obj){
+  setCartList(obj.list);
+  setPopUp(true)
+  setOrderResponce(obj.res)
+  
+}
+
+function closePopUp(){
+  setPopUp(false)
+}
+
 let n = newAmount.toFixed(2)
 
 if(currentPage === "menu"){
@@ -182,7 +199,11 @@ if(currentPage === "menu"){
           <div className="total-div">
             <h1>Total Amount $  {n}</h1>
           </div>
-          <PlaceOrderBtn />
+          <PlaceOrderBtn emptyFunc={emptyList}/>
+
+          <MoreInfoPopup  trigger={popUp} closeFunc={closePopUp} >
+             <h3>{orderResponce}</h3>
+           </MoreInfoPopup>
           <div className="body-blank">
           </div>
    
@@ -212,7 +233,11 @@ if(currentPage === "menu"){
            <div className="total-div">
              <h1>Total Amount $  {newAmount}</h1>
            </div>
-           <PlaceOrderBtn />
+           <PlaceOrderBtn itemList={cartList} emptyFunc={emptyList}/>
+
+           <MoreInfoPopup trigger={popUp} closeFunc={closePopUp}>
+             <h3>{orderResponce}</h3>
+           </MoreInfoPopup>
            <div className="body-blank">
            </div>
     

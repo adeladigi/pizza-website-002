@@ -13,11 +13,15 @@
     right: 25px;
 }
 
+
+
 .popup-inner h3 {
     letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
 }
 
 .popup-inner h4 {
   color:#8D2828;
   cursor: pointer;
+  font-family: 'Anton', sans-serif;
 }
